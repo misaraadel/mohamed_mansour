@@ -1,0 +1,66 @@
+@media (max-width: 989px) {
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    h5, h6{
+        font-size: 15px !important;
+    }
+    p , a , li , button {
+        font-size: 11px !important;
+    }
+    .nav-toggler{
+        display: block !important;
+    }
+    .navbar .nav-content{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 100px;
+        background-color: #000;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: center;
+        text-align: center;
+        transition: all .5s linear;
+        right: -112%;
+        z-index: 9999;
+        border: none !important;
+    }
+    .navbar .nav-content .navbar-nav  {
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        width: 100%;
+    }
+    .navbar .nav-content .navbar-nav li {
+        margin: 15px 0px !important;
+        width: 100%;
+    }
+    .acitve-nav{
+        right: 0px !important;
+    }
+    footer .content{
+        flex-direction: column !important;
+    }
+    footer .content p {
+        margin-bottom: 20px;
+    }
+    header{
+        padding: 140px 0px 50px;
+    }
+    header .image-cotent{
+        height: 250px;
+        margin-top: 40px;
+    }
+    .about-us .image-contet{
+        height: 200px;
+    }
+    .about-us , .projects , .partaners {
+        padding: 50px 0px;
+    }
+    .cotanct-us .map{
+        height: 350px;
+    }
+}
